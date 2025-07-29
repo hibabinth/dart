@@ -1,4 +1,4 @@
-void main() {
+void main() async {
   fetchdata().then((data) {
     print(data);
   });
